@@ -2,7 +2,11 @@
 
 Helix is an autonomous AI agent that monitors your GitHub Actions pipelines and automatically diagnoses failures, generates fixes, validates them in Docker sandboxes, and opens pull requests — all in real time.
 
+![Helix Dashboard](docs/assets/pipeline-canvas.png)
+
 ---
+
+## ✨ What Helix Does
 
 ## ✨ What Helix Does
 
