@@ -2,11 +2,20 @@
 
 Helix is an autonomous AI agent that monitors your GitHub Actions pipelines and automatically diagnoses failures, generates fixes, validates them in Docker sandboxes, and opens pull requests — all in real time.
 
-![Helix Dashboard](docs/assets/pipeline-canvas.png)
+---
+
+## 📸 Screenshots
+
+| Dashboard Overview | Node Selection |
+|:------------------:|:--------------:|
+| ![Pipeline Canvas](docs/screenshots/pipeline-canvas.png) | ![Node Selected](docs/screenshots/node-selected.png) |
+
+| Empty State |
+|:-----------:|
+| ![Empty Space](docs/screenshots/empty-space.png) |
 
 ---
 
-## ✨ What Helix Does
 
 ## ✨ What Helix Does
 
@@ -22,10 +31,6 @@ When a GitHub Actions pipeline fails, Helix automatically:
 8. **Retries** with a new strategy if validation fails (up to `MAX_RETRY_ATTEMPTS`)
 9. **Escalates** via the dashboard if all retries fail
 10. **Streams** every step in real time to the React dashboard via WebSockets
-
----
-
-## 🏗 Architecture
 
 ```
 helix/
