@@ -10,9 +10,9 @@ Helix is an autonomous AI agent that monitors your GitHub Actions pipelines and 
 |:------------------:|:--------------:|
 | ![Pipeline Canvas](docs/screenshots/pipeline-canvas.png) | ![Node Selected](docs/screenshots/node-selected.png) |
 
-| Empty State |
-|:-----------:|
-| ![Empty Space](docs/screenshots/empty-space.png) |
+| Empty State | Github PR |
+|:-----------:|:--------------:|
+| ![Empty Space](docs/screenshots/empty-space.png) | ![PR](docs/screenshots/pr.png) |
 
 ---
 
