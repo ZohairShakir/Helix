@@ -1,0 +1,34 @@
+# Helix Backend Dependencies
+# FastAPI web framework and ASGI server
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+
+# Google Gemini API client
+google-generativeai==0.7.2
+
+# GitHub API client
+PyGitHub==2.3.0
+
+# Docker SDK for sandbox execution
+docker==7.1.0
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# HTTP client for async requests
+httpx==0.27.0
+
+# Data validation
+pydantic==2.10.6
+pydantic-settings==2.7.1
+
+# WebSocket support
+websockets==12.0
+
+# Cryptography for webhook signature verification
+cryptography==42.0.8
+
+# Utilities
+python-multipart==0.0.9
+anyio==4.4.0
